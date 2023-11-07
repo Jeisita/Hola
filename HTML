@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tú Barrio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.eltiempo.com/files/multi_especiales_modulares/uploads/2019/10/11/5da0ac9624166.jpeg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">¡Bievenidos!</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">Nuestro objetivo</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">Actividades</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">Entérate</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Actualizaciones de información cada día</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">De todos<br>para todos</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Parque Mirador de los Nevados</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Tú Barrio Tuna Alta</span></h5>
+    <p>En la vista más alta, hacia los cerros en 1886 habitaban indígenas que vivían de cultivos de su tierra. Sus heredades buscando recursos económicos vendieron los terrenos y hoy en día conforman Tuna Alta, un barrio que abriga familias de diferentes lugares de Colombia.</p>
+    <p>El barrio abrazó a ciudadanos de toda clase. Una población en específico, la cual sería la población en estado de vulnerabilidad y es por ello que nuestro enfoque y preocupación son los habitantes. En este lugar encontrarás todo lo relacionado con Tú Barrio, actividades organizadas por la Alcaldía Loca de Suba exclusivamente para ustedes.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>“Simón Bolívar hablaba de multicostumbrismo, Jaime Bateman hablaba de un sancocho; esto es como una colcha de retazos, pero es que eso somos (...) El país es eso, es una mezcla de todo”.</i></p>
+      <p>Jaime Garzón 1999</p>
+    </div>
+    <img src="https://www.videorockola.com/wp-content/uploads/2015/04/tuna.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Actividades</span></h5>
+  
+   <ol>
+        <li> Jornada de Vacunación Primera Infancia</li>
+        <p class="w3-text-grey">Lunes 19 de Septiembre de 2023 - Desde las 9:00 a.m hasta las 12:00 p.m</p><br>
+        <li> Jornada de Vacunación Adulto Mayor </li>
+        <p class="w3-text-grey">Miércoles 20 de Septiembre de 2023 - Desde las 10:00 a.m hasta las 4:00 p.m</p><br>
+        <li> Jornada Laboral Colsubsidio </li>
+        <p class="w3-text-grey">Lunes a viernes - 7:00 a.m a 12:00 p.m</p><br>
+   </ol>
+
+    <img src="https://www.integracionsocial.gov.co/images/stories/2015/paz_social_site/banners/suba.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Noticias importantes</span></h5>
+    <p>Nuestra primera infancia</p>
+    <img src="https://www.integracionsocial.gov.co/images/slider/2020/banner_aprendamos_jugando_seccion.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">¡ATENTOS!</span> La Alcaldía Local de Suba estará prestando cursos para enseñanzas pedagógicas hechas para nuestros niños de la semana 19 de Septiemebre hasta el 22 de Septiembre. <br>
+        Recuerda que en esta parte encontrarás acontecimientos importantes para nuestra primera infancia.</p>
+    <p><strong>Incríbete aquí</strong> Estos talleres contarán con cupo limitado.</p>
+    
+    <form 
+      method="POST" 
+      action="https://script.google.com/macros/s/AKfycbwgBecuYWUQMmbmQMnTUlwlWZhNJWRsdQBWIhFli-4V_cxPGkwgIvLdWv_nxyq2p847fw/exec">
+      <p><input class="w3-input w3-padding-16 w3-border" name="Nombre acudiente" type="text" placeholder="Nombre acudiente" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" name="Nombre niño/a" type="text" placeholder="Nombre niño/a" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" name="Día de asistencia" type="date" placeholder="Día de asistencia" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" name="Por favor, cuéntanos sobre tú experiencia visitándonos" type="text" placeholder="Por favor, cuéntanos sobre tú experiencia visitándonos" required></p>
+      <p><button class="w3-button w3-black" type="submit">Enviar</button>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p> Powered by Ángela Jei Ramírez Loaiza</p>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+
+
+
+</body>
+</html>
